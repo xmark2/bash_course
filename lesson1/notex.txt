@@ -1,0 +1,27 @@
+  500  mkdir bash
+  501  mkdir bash_course
+  502  cd bash_course/
+  503  mkdir lesson1
+  504  cd lesson1
+  505  echo $SHELL
+  506  which bash
+  507  ls
+  508  nano myscript.sh
+  509  ls
+  510  sudo chmod +x myscript.sh
+  511  ls
+  512  ls -l
+  513  ./myscript.sh 
+  514  ls -l
+  515  myscript.sh
+  516  sh myscript.sh 
+  517  nano myscript.sh
+  518  ./myscript.sh 
+  519  cat myscript.sh
+  520  nano myscript.sh
+  521  ./myscript.sh 
+  522  nano myscript.sh
+  523  ./myscript.sh 
+  524  nano myscript.sh
+  525  ./myscript.sh 
+  526  history > notex.txt
