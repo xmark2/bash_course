@@ -1,0 +1,24 @@
+  568  mkdir lesson11
+  569  cd lesson11
+  570  sudo mv update.sh /usr/local/bin/update
+  571  sudo cp /usr/local/bin/update pwd
+  572  rm pwd
+  573  sudo rm pwd
+  574  pwd
+  575  $pwd
+  576  sudo cp /usr/local/bin/update pwd/update
+  577  sudo cp /usr/local/bin/update pwd
+  578  chmod chown ubuntu:ubuntu update 
+  579  sudo chmod chown ubuntu:ubuntu update 
+  580  chown ubuntu:ubuntu update 
+  581  ls -l
+  582  history > notes.txt
+  583  sudo chown ubuntu:ubuntu update
+  584  ls -l
+  585  history > notes.txt
+  586  sudo cp update /usr/local/bin/update
+  587  ls -l /usr/local/bin
+  588  sudo nano /usr/local/bin/update
+  589  update
+  590  tail -f ~/updater.log
+  591  history > notes.txt
