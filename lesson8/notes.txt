@@ -1,0 +1,7 @@
+  522  mkdir lesson8
+  523  cd lesson8
+  524  clear
+  525  ./myscript.sh
+  526  ./myscript2.sh
+  527  ./myscript3.sh
+  528  history > notes.txt
