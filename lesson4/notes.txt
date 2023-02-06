@@ -1,0 +1,21 @@
+  552  mkdir lesson4
+  553  cd lesson4
+  554  fg
+  555  nano myscript.sh
+  556  fg
+  557  nano myscript.sh
+  558  fg
+  559  ./myscript.sh 
+  560  touch myfile
+  561  ./myscript.sh 
+  562  pwd
+  563  ./myscript.sh 
+  564  ls
+  565* 
+  566  htop
+  567  ./myscript.sh 
+  568  command -v
+  569  command -v htop
+  570  command -v snap
+  571  man test
+  572  history > notes.txt

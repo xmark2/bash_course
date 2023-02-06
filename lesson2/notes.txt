@@ -1,0 +1,36 @@
+  501  cd lesson2
+  502  ls -l
+  503  echo $SHELL
+  504  myname="Mark"
+  505  echo "Hello World!"
+  506  echo $myname
+  507  echo $newvariable
+  508  ls="Hello Again"
+  509  ls
+  510  echo $ls
+  511  nano myscript.sh
+  512  ./myscriopt.sh
+  513  ./myscript.sh
+  514  chmod +x myscript.sh 
+  515  ls
+  516  ./myscript.sh
+  517  ls
+  518  nano myscript2.sh
+  519  clear
+  520  ./myscript2.sh
+  521  files=$(ls)
+  522  $files
+  523  echo $files
+  524  files=$(pwd)
+  525  echo $pwd
+  526  echo $files
+  527  date
+  528  ./myscript2.sh
+  529  nano myscript3.sh
+  530  clear
+  531  ./myscript3.sh
+  532  env
+  533  echo $HOME
+  534  echo $ubuntu
+  535  echo $USER
+  536  history > notes.txt

@@ -1,0 +1,11 @@
+  538  mkdir lesson3
+  539  cd lesson3
+  542  expr 30 + 10
+  543  expr 30 - 10
+  544  expr 30 / 10
+  545  expr 30 x 10
+  546  expr 30 \* 10
+  547  mynum1=100
+  548  echo $mynum1
+  549  expr $mynum1 + 50
+  550  history > notes.txt
