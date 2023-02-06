@@ -1,0 +1,25 @@
+  540  cd ..
+  541  mkdir lesson10
+  542  cd lesson10
+  543  ls /notexists
+  544  echo $?
+  545  echo "hello"
+  546  echo $?
+  547  find /etc -type f
+  548  find /etc -type f 2> /dev/null
+  549  echo $?
+  550  find /etc -type f > /dev/null
+  551  find /etc -type f 1> /dev/null
+  552  find /etc -type f 1> file.txt
+  553  cat file.txt
+  554  history > notes.txt
+  555  find /etc -type f 1>find_result.txt 2>find_errors.txt
+  556  history > notes.txt
+  557  clear
+  558  sudo nano /usr/local/bin/update
+  559  update
+  560  $update
+  561  sudo nano /usr/local/bin/update
+  562  ./myscript.sh
+  563  update
+  564  history > notes.txt
