@@ -1,0 +1,13 @@
+  503  cd lesson5
+  504  sudo apt remove htop
+  505  ./myscript.sh 
+  506  sudo apt remove htop
+  507  ./myscript.sh 
+  508  sudo apt remove htop
+  509  ./myscript.sh 
+  510  ./myscript2.sh 
+  511  ./myscript3.sh 
+  512  echo $?
+  513  ./myscript3.sh 
+  514  echo $?
+  515  history > notes.txt
