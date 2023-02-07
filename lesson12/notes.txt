@@ -1,0 +1,7 @@
+  679  cd lesson12
+  680  ls -l
+  681  ./myscript.sh 
+  682  ./myscript2.sh 
+  683  clear
+  684  ./myscript2.sh 
+  685  history > notes.txt
