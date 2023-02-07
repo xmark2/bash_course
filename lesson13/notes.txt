@@ -1,0 +1,28 @@
+  693  which at
+  694  sudo apt install at
+  695  which at
+  696  cd ..
+  697  cd lesson13
+  698  clear
+  699  ./myscript.sh 
+  700  clear
+  701  cat job_results.log 
+  702  date
+  703  at 02:11 -f ./myscript.sh
+  704  at 14:12 -f ./myscript.sh
+  705  at 14:14 -f ./myscript.sh
+  706  atq
+  707  atrm 1
+  708  atq
+  709  atrm 3
+  710  atq
+  711  at 14:14 020723 -f ./myscript.sh
+  712  atq
+  713  at 14:15 020723 -f ./myscript.sh
+  714  atq
+  715  history > notes.txt
+  716  crontab -e
+  717  crontab -e select-editor
+  718  select-editor
+  719  crontab -e
+  720  history > notes.txt
