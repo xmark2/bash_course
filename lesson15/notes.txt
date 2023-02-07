@@ -1,0 +1,18 @@
+
+  752  cd ..
+  753  cd lesson15
+  754  ls -l
+  755  ./backup.sh snap/ backup/
+  756  ./backup.sh ~/snap/ ~/backup/
+  757  clear
+  758  ./backup.sh ~/snap/ ~/backup/
+  759  cd ~
+  760  cd snap
+  761  mkdir testdir
+  762  cd testdir/
+  763  touch testfile.txt
+  764  nano testfile.txt 
+  765  cd PycharmProjects/
+  766  cd bash_course/
+  767  cd lesson15
+  768  history > notes.txt

@@ -1,0 +1,27 @@
+  725  cd ..
+  726  mkdir lesson14
+  727  cd lesson14
+  728  ./myscript.sh
+  729  ./myscript.sh linux
+  730  ./myscript.sh linux games tot films
+  731  ls -lh
+  732  ls -lh /etc
+  733  ./myscript.sh /etc
+  734  ./myscript2.sh /etc
+  735  wc -l
+  736  ls -lh | wc -l
+  737  ls -lh /etc | wc -l
+  738  ./myscript2.sh /etc
+  739  ls -lh | head
+  740  ls -lh /etc | head
+  741  ls -lh /etc
+  742  ls -lh /etc | tail
+  743  ./myscript2.sh
+  744  ls -l
+  745  clear
+  746  ./myscript2.sh /etc
+  747  ./myscript2.sh
+  748  ls ~/Pictures/
+  749  ls -l ~/Documents/
+  750  ls -l ~/snap
+  751  ls -l
