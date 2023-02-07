@@ -1,0 +1,14 @@
+#!/bin/bash
+
+current_date=$(date +%Y-%m-%d__%H:%M:%S)
+target_folder=/usr/local/bin
+logfile=$(pwd)/"$0".log
+
+for file in $(pwd)/*
+do
+  if [[ $file != *"usr_scripts"* ]]; then
+    chmod +x "$file"
+    sudo cp "$file" "$target_folder"
+    echo "$current_date -- $file copied to $target_folder">>$logfile
+  fi
+done
